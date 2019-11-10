@@ -1,0 +1,165 @@
+/* color bacground page */
+body { background-color:floralwhite;
+  }
+
+/* Animation prepare */
+.IC1,.IC2,.IC3 {
+	animation: 
+}
+
+/* Padding Image Icon */
+.IC1 {
+	padding-left:20%;
+	}
+.IC2 {
+	padding-left:10%;
+	}
+.IC3 {
+	padding-left:10%;
+}
+
+/* color text Icons on top §0*/
+#P0 {
+	color:darkseagreen
+}
+
+/* color Title Color and align */
+h1{ color: white;
+	background-color: black;
+	text-align:left;
+  }
+
+/* footer § and color */
+footer{ color: black;
+	background-color:gainsboro;
+	text-align:left;
+  }
+
+/* color red UL LI A balises*/
+ul,li,a{color: #FF0000;
+	} /* CSS link color (red) */
+
+/* define border P1*/
+.P1{
+	border-width:0px;
+	border: outset thin;
+	}
+
+/* color / align / border §text */
+.P1,.P3,.P4{ color: blue;
+     text-align:left;
+	 padding-left: 1%;
+}
+
+/* Image 1 padding */
+.IM1{
+    float:right;padding-right:0%
+	}
+
+/* color §2 red */
+.P2 { color:red;
+}
+
+/* Nav */
+#nav {
+	padding: 0; margin: 0;
+	text-align: center; /* centrer le texte */
+}
+
+/* Nav LI inline no border*/
+#nav li {
+	display: inline;
+	list-style: none;
+}
+
+/* color bacground page */
+#nav a {
+	display:inline-block;
+	margin: 0 10px;
+}
+
+/* Class Image */
+.im1 {
+  resize: both;
+  overflow: scroll;
+  border: 1px solid black;
+}
+
+/* Div size */
+div {
+  height: 300px;
+  width: 300px;
+}
+
+/* color icone*/
+.fas,.IC1,.IC2,.IC3 { color:darkseagreen;
+}
+
+/* left bloc Icone top */
+.bloc-gauche { 
+   float:left;
+   width:49%;
+   color:#A0A0A0;
+   padding-left:10px;
+   }
+
+/* Right / left / color bloc Icons top */
+.bloc-droit { 
+   float:right;
+   width:49%;
+   color:#A0A0A0;
+   padding-left:10px;
+   }
+
+.colored-image {
+   background-size: contain;
+   height: 20px;        
+    }
+
+.bloc-gauche {
+	height: 0px;
+	border-width: 0px;
+}
+
+/* define button */
+button{
+	float:right;
+	margin-right:20px;
+	align-content: flex-end;
+	}
+
+/* define container not used*/
+.container {
+  text-align: center;
+}
+
+/* Clear floats */
+.nav {
+  background-color: lightgray; 
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+
+.nav li {
+  display: inline-block;
+  font-size: 20px;
+  padding: 20px;
+}
+
+/* Button bottom opacity */
+.CL1{
+	color: whitesmoke;
+	text-decoration:none;
+	filter:opacity(50%)
+}
+
+/* Icones bottom opacity tests */
+.grayscale{
+	-webkit-filter: grayscale(50%);filter: grayscale(50%);
+}
+
+
+
