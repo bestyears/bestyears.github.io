@@ -65,7 +65,7 @@ ul,li,a{color: #FF0000;
 /* color / align / border §text */
 .P1,.P3,.P4{ color: darkseagreen;
    text-align:left;
-	 padding-left: 1%;
+	  padding-left: 1%;
 }
 
 /* Image 1 padding */
@@ -171,6 +171,8 @@ button{
 	color: whitesmoke;
 	text-decoration:none;
 	filter:opacity(50%)
+ text-decoration: none;
+
 }
 
 /* Icones bottom opacity tests */
@@ -185,9 +187,9 @@ p.P1{
 /* Textx blinking */
 .blinking{
     animation:blinkingText 2s infinite;
-}
+    }
 @keyframes blinkingText{
-    0%{     color: #000;    }
+    0%{     color: #fff;    }
     49%{    color: transparent; }
     50%{    color: transparent; }
     99%{    color:transparent;  }
@@ -200,6 +202,12 @@ div {
   
 div{
   display:block;
+}
+
+.contact{
+  color:#fff;
+  text-decoration:none;
+  filter:opacity(50%)
 }
  
 
