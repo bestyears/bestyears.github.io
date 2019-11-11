@@ -111,12 +111,6 @@ ul,li,a{color: #FF0000;
   border: 1px solid black;
 }
 
-/* Div size */
-div {
-  height: 300px;
-  width: 300px;
-}
-
 /* color icone*/
 .fas,.IC1,.IC2,.IC3 { color:darkseagreen;
 }
@@ -207,6 +201,13 @@ p.P1{
 div {
      display:none;
      display:block;
+     height: 300px;
+     width: 300px;
+}
+
+/* Div size */
+div {
+
 }
 
 .contact{
