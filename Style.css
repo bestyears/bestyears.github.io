@@ -29,7 +29,6 @@ body { background-color:floralwhite;
   padding-left:100%;
   padding-top: 7%;
   vertical-align:middle;
-  
 }
 
 .L1 {
@@ -163,8 +162,8 @@ button{
 
 /* Clear floats */
 .nav {
-  background-color: lightgray; 
-  list-style-type: none;
+  background-color: lightgray;
+/*  list-style-type: none;*/
   text-align: center;
   margin: 0;
   padding: 0;
@@ -178,7 +177,7 @@ button{
 
 /* Button bottom opacity */
 .CL1{
-	color: whitesmoke;
+	color:rgb(0,0,0);
 	text-decoration:none;
 	filter:opacity(50%);
  text-decoration: none;
