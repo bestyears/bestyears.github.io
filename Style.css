@@ -24,6 +24,14 @@ body { background-color:floralwhite;
  color: red;
 }
 
+/* Icon blac Jack*/
+.casi {
+  padding-left:100%;
+  padding-top: 7%;
+  vertical-align:middle;
+  
+}
+
 .L1 {
     text-decoration:none;
 }
@@ -206,9 +214,7 @@ div {
 }
 
 /* Div size */
-div {
 
-}
 
 .contact{
   color:#fff;
@@ -220,6 +226,17 @@ a, a:hover, a:visited, a:active
 {
 	text-decoration:none;
 }
+
+.left {
+	float: left;
+}
+.flotte {
+    float: right;
+    padding-left: 5%;
+    vertical-align:text-top;
+  }
+
+
  
 
 
